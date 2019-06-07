@@ -1,5 +1,5 @@
-import './style.scss';
-import Icon from './icon.png';
+import './_styles/style.scss';
+import Icon from './_images/icon.png';
 
 function component() {
   const element = document.createElement('div');

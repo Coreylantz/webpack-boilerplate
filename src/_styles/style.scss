@@ -1,10 +1,13 @@
+@import './fonts';
+
 body {
+  font-family: 'Rockwell', sans-serif;
   .hello {
     color: red;
     position: relative;
     
     &::after {
-      background: url('./icon.png') no-repeat;
+      background: url('../_images/icon.png') no-repeat;
       content: '';
       position: absolute;
       height: 100%;
