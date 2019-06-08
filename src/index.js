@@ -1,5 +1,6 @@
 import './_styles/style.scss';
 import Icon from './_images/icon.png';
+import Data from './data.xml';
 
 function component() {
   const element = document.createElement('div');
@@ -12,6 +13,8 @@ function component() {
   myIcon.src = Icon;
 
   element.appendChild(myIcon);
+
+  console.log(Data);
 
   return element;
 }
